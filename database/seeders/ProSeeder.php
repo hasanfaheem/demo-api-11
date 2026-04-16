@@ -6,9 +6,7 @@ use App\Models\Answer;
 use App\Models\Instrument;
 use App\Models\Patient;
 use App\Models\Submission;
-use App\Models\Question;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class ProSeeder extends Seeder
 {

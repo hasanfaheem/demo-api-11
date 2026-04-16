@@ -16,7 +16,7 @@ A RESTful API built with Laravel 11, MySQL 8, and PHP 8.4 for managing patient-r
 
 ```bash
 git clone <your-fork-url>
-cd tti-apis
+cd <project-root-directory>
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -26,15 +26,15 @@ Configure your `.env`:
 ```env
 APP_NAME=ProAPI
 APP_ENV=local
-APP_KEY=
+APP_KEY=<generated in last step>
 APP_DEBUG=true
 APP_URL=http://localhost:8000
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=tti_apis
-DB_USERNAME=root
+DB_DATABASE=pro_apis
+DB_USERNAME=root or your_username
 DB_PASSWORD=your_password
 ```
 
