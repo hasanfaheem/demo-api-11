@@ -14,14 +14,6 @@ class ProSeeder extends Seeder
 {
     public function run(): void
     {
-        // Clean slate before seeding
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
-        Answer::truncate();
-        Submission::truncate();
-        Question::truncate();
-        Instrument::truncate();
-        Patient::truncate();
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
         // Patients
         $patient1 = Patient::create([
